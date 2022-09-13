@@ -1,5 +1,5 @@
 body {
-    background: #E9ECEF !important; /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+    background: #d7dadd !important; /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
 }
 
 /* leaving this here just in case */
