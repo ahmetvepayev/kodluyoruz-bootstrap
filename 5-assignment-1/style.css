@@ -26,3 +26,8 @@ a.nav-link:hover {
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
+
+.dropdown-header.border-secondary {
+    --bs-border-opacity: .30;
+  }
+  
