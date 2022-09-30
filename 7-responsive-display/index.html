@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Part 7 | Responsive Display</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-6 text-center fw-bold">
+                <p class="bg-primary d-sm-none">Visible on only xs</p>
+                <p class="bg-secondary d-md-none">Visible on sm and smaller</p>
+                <p class="bg-success d-lg-none">Visible on md and smaller</p>
+                <p class="bg-danger d-xl-none">Visible on lg and smaller</p>
+                <p class="bg-info d-xxl-none">Visible on xl and smaller</p>
+                <p class="bg-warning">Visible on xxl and smaller (all)</p>
+            </div>
+            <div class="col-6 text-center fw-bold">
+                <p class="bg-primary d-sm-none">Visible on only xs</p>
+                <p class="bg-secondary d-none d-sm-block d-md-none">Visible on only sm</p>
+                <p class="bg-success d-none d-md-block d-lg-none">Visible on only md</p>
+                <p class="bg-danger d-none d-lg-block d-xl-none">Visible on only lg</p>
+                <p class="bg-info d-none d-xl-block d-xxl-none">Visible on only xl</p>
+                <p class="bg-warning d-none d-xxl-block">Visible on only xxl</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
